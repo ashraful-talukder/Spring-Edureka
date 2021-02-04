@@ -6,7 +6,11 @@ class Employee{
     Employee(){
         eid = 0;
         ename = "NA";
-        address = new Address();    //Object creation
+        //address = new Address();    //Object creation
+    }
+
+    Employee(Address address){
+        this.address = address; //lose coupling
     }
 }
 
