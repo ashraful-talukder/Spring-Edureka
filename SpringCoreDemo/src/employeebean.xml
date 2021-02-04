@@ -8,16 +8,16 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	
-	<bean id="emp1" class="co.edureka.Employee">
-		<property name="eid" value="102"/>
-		<property name="ename" value="Jonathan"/>
-		<property name="eaddress" value="Dhaka"/>
+	<bean id="adrs" class="co.edureka.Address">
+		<property name="city" value="Tangail"/>
+		<property name="division" value="Dhaka"/>
+		<property name="zipCode" value="1976"/>
 	</bean>
 
-	<bean id="emp2" class="co.edureka.Employee">
+	<bean id="emp1" class="co.edureka.Employee">
 		<property name="eid" value="103"/>
-		<property name="ename" value="James"/>
-		<property name="eaddress" value="Chittagong"/>
+		<property name="ename" value="Ashraful"/>
+		<constructor-arg ref="adrs"/>
 	</bean>
 
 </beans>

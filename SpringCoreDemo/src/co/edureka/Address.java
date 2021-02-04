@@ -3,14 +3,14 @@ package co.edureka;
 public class Address {
 	//Attributes
 	String city;
-	String state;
+	String division;
 	int zipCode;
 	
 	//methods
-	public Address(String city, String state, int zipCode) {
+	public Address(String city, String division, int zipCode) {
 		super();
 		this.city = city;
-		this.state = state;
+		this.division = division;
 		this.zipCode = zipCode;
 	} 
 	
@@ -22,12 +22,12 @@ public class Address {
 		this.city = city;
 	}
 	
-	public String getState() {
-		return state;
+	public String getdivision() {
+		return division;
 	}
 	
-	public void setState(String state) {
-		this.state = state;
+	public void setdivision(String division) {
+		this.division = division;
 	}
 	
 	public int getZipCode() {
@@ -40,7 +40,7 @@ public class Address {
 	
 	@Override
 	public String toString() {
-		return "Address [city=" + city + ", state=" + state + ", zipCode=" + zipCode + "]";
+		return "Address [city=" + city + ", division=" + division + ", zipCode=" + zipCode + "]";
 	}
 	
 }
