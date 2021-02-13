@@ -13,12 +13,4 @@
 		<property name="division" value="Dhaka"/>
 		<property name="zipCode" value="1976"/>
 	</bean>
-
-	<bean id="emp1" class="co.edureka.Employee" init-method="myInit" destroy-method="myDestroy">
-		<property name="eid" value="103"/>
-		<property name="ename" value="Ashraful"/>
-		<!-- <constructor-arg ref="adrs"/> -->
-		<property name="address" value="adrs"/>
-	</bean>
-
 </beans>
