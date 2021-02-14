@@ -7,5 +7,7 @@ public class App {
     public static void main( String[] args ) {
     	ApplicationContext appContext = new ClassPathXmlApplicationContext("Customer.xml");
     	
+    	CustomerService cust = (CustomerService) appContext.getBean("Proxy");
     }
 }
+ 

@@ -8,7 +8,7 @@
 	<classpathentry kind="lib" path="C:/Users/ashas/Downloads/Compressed/spring-framework-5.3.3/libs/spring-aspects-5.3.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ashas/Downloads/Compressed/spring-framework-5.3.3/libs/spring-aspects-5.3.3-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ashas/Downloads/Compressed/spring-framework-5.3.3/libs/spring-aspects-5.3.3-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ashas/Downloads/Compressed/spring-framework-5.3.3/libs/spring-beans-5.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashas/Downloads/Compressed/spring-framework-5.3.3/libs/spring-beans-5.3.3.jar" sourcepath="C:/Users/ashas/.m2/repository/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ashas/Downloads/Compressed/spring-framework-5.3.3/libs/spring-beans-5.3.3-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ashas/Downloads/Compressed/spring-framework-5.3.3/libs/spring-beans-5.3.3-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ashas/Downloads/Compressed/spring-framework-5.3.3/libs/spring-context-5.3.3.jar"/>
