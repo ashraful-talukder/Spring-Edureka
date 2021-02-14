@@ -8,7 +8,7 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	
-	<bean id="emp1" class="com.edureka.Spring_AOP.CustomerService">
+	<bean id="google" class="com.edureka.Spring_AOP.CustomerService">
 		<property name="name" value="Google"/>
 		<property name="url" value="www.google.com"/>
 	</bean>
