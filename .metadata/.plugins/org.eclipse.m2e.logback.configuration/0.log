@@ -2474,3 +2474,4 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2021-02-14 17:34:19,867 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-02-14 17:34:19,867 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Exercise\Spring\Edureka!\Spring-AOP\src\test\resources
 2021-02-14 17:34:40,527 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-02-15 09:21:52,818 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
